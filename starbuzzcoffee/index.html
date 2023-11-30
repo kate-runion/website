@@ -11,6 +11,7 @@
 }
 body {
   font-family: 'NerkoOne-Regular', sans-serif;
+  background-color: darkolivegreen;
 }
 h1 {
   font-size: 3.5vw;
@@ -41,7 +42,7 @@ function generate_lyrics() {
 
   while (cups > 1) {
     lyrics += "<p style=\"color: ";
-    lyrics += (cups % 2 == 0) ? "red" : "green";
+    lyrics += (cups % 2 == 0) ? "brown" : "yellow";
     lyrics += ";\">";
     lyrics += cups + " cups of " + drink + " on the wall <br>";
     lyrics += cups + " cups of " + drink + " on the wall <br>";
