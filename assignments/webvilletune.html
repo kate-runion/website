@@ -10,6 +10,11 @@ var button = document.getElementById("addButton");
 button.onclick = handleButtonClick;
 }
 function handleButtonClick() {
+var textInput = document.getElementById("songTextInput");
+var songName = textInput.value;
+alert("Adding " + songName);
+}
+function handleButtonClick() {
 alert("Button was clicked!");
 }
 </script>
