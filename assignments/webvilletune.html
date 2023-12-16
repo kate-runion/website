@@ -4,23 +4,10 @@
 <title>Webville Tunes</title>
 <meta charset="utf-8">
 <script src="playlist.js">
-    window.onload = init;
-function init() {
-var button = document.getElementById("addButton");
-button.onclick = handleButtonClick;
-}
-function handleButtonClick() {
-var textInput = document.getElementById("songTextInput");
-var songName = textInput.value;
-var li = document.createElement("li");
-li.innerHTML = songName;
-var ul = document.getElementById("playlist");
-ul.appendChild(li);kmnj
-}
 </script>
 <link rel="stylesheet" href="playlist.css">
 </head>
-<body style="align-content:center;">
+<body>
 <form>
 <input type="text" id="songTextInput" size="40" placeholder="Song name">
 <input type="button" id="addButton" value="Add Song">
